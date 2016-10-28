@@ -105,4 +105,8 @@
 
     <!-- Whether this device is supporting the camera toggle -->
     <bool name="config_supportsCamToggle">true</bool>
+
+    <!-- Set this to true to enable the platform's auto-power-save modes
+         like doze and app standby. -->
+    <bool name="config_enableAutoPowerModes">true</bool>
 </resources>
