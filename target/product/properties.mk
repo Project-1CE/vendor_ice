@@ -70,3 +70,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # (for devices that check this)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     net.tethering.noprovisioning=true
+
+# Don't Hide APNs
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.hideapn=false
