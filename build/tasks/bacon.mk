@@ -14,20 +14,10 @@
 # limitations under the License.
 #
 
-function __print_ice_functions_help() {
-cat <<EOF
-Additional Project ICE functions:
-- mka:             Builds using SCHED_BATCH on all processors.
-- repopick:        Utility to fetch changes from Gerrit.
-EOF
-}
+ICE_TARGET_PACKAGE := $(PRODUCT_OUT)/Ice-$(ICE_VERSION).zip
 
-function mka() {
-    m -j "$@"
-}
-
-function repopick()
-{
-    T=$(gettop)
-    $T/vendor/ice/build/tools/repopick.py $@
-}
+.PHONY: bacon
+bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
+	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(ICE_TARGET_PACKAGE)
+	$(hide) sha256sum $(ICE_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(ICE_TARGET_PACKAGE).sha256sum
+	@echo "Package Complete: $(ICE_TARGET_PACKAGE)" >&2
