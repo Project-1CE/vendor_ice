@@ -21,3 +21,6 @@ $(call inherit-product, device/qcom/common/common.mk)
 
 # Include definitions for Snapdragon Clang
 $(call inherit-product, vendor/ice/sdclang/sdclang.mk)
+
+# Include properties makefile
+$(call inherit-product, vendor/ice/target/product/properties.mk)
