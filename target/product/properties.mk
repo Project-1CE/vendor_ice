@@ -60,3 +60,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.storage_manager.enabled=true
+
+# Volume Steps
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.config.bt_sco_vol_steps=30 \
+    ro.config.media_vol_steps=30
