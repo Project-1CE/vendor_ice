@@ -35,4 +35,9 @@
 
     <!-- Corner radius of system progress bars -->
     <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
+
+    <!-- Whether action menu items should be displayed in ALLCAPS or not.
+         Defaults to true. If this is not appropriate for specific locales
+         it should be disabled in that locale's resources. -->
+    <bool name="config_buttonTextAllCaps">false</bool>
 </resources>
