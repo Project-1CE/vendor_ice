@@ -14,8 +14,20 @@
 # limitations under the License.
 #
 
-# Kernel
-include vendor/ice/target/board/BoardConfigKernel.mk
+SOONG_CONFIG_NAMESPACES += iceVarsPlugin
 
-# Soong
-include vendor/ice/target/board/BoardConfigSoong.mk
+SOONG_CONFIG_iceVarsPlugin :=
+
+define addVar
+  SOONG_CONFIG_iceVarsPlugin += $(1)
+  SOONG_CONFIG_iceVarsPlugin_$(1) := $$(subst ",\",$$($1))
+endef
+
+$(foreach v,$(EXPORT_TO_SOONG),$(eval $(call addVar,$(v))))
+
+SOONG_CONFIG_NAMESPACES += iceGlobalVars
+SOONG_CONFIG_iceGlobalVars +=
+
+# Set default values
+
+# Soong value variables
