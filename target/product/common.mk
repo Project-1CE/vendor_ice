@@ -38,6 +38,9 @@ $(call inherit-product, vendor/ice/target/product/packages.mk)
 # Include properties makefile
 $(call inherit-product, vendor/ice/target/product/properties.mk)
 
+# Include sepolicy makefile
+$(call inherit-product, vendor/ice/sepolicy/sepolicy.mk)
+
 # Move Wi-Fi modules to vendor
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
