@@ -46,3 +46,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
+
+# Gestures
+ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+endif
