@@ -35,6 +35,9 @@ $(call inherit-product, vendor/ice/overlay/overlays.mk)
 # Include packages makefile
 $(call inherit-product, vendor/ice/target/product/packages.mk)
 
+# Include prebuilts makefile
+$(call inherit-product, vendor/ice/target/product/prebuilts.mk)
+
 # Include properties makefile
 $(call inherit-product, vendor/ice/target/product/properties.mk)
 
