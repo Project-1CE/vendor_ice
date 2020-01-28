@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# Disable EAP Proxy because it depends on proprietary headers
+# and breaks WPA Supplicant compilation.
+DISABLE_EAP_PROXY := true
+
 # Kernel
 include vendor/ice/target/board/BoardConfigKernel.mk
 
