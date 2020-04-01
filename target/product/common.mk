@@ -15,3 +15,6 @@
 #
 
 $(call inherit-product, vendor/ice/target/product/version.mk)
+
+# Inherit from common Qualcomm device
+$(call inherit-product, device/qcom/common/common.mk)
