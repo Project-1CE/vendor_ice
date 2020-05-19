@@ -18,6 +18,7 @@
 PRODUCT_PACKAGES += \
     ICEFrameworksOverlay \
     ICELauncher3Overlay \
+    ICENavigationBarNoHintOverlay \
     ICENetworkStackOverlay \
     ICESettingsOverlay \
     ICESettingsProviderOverlay \
