@@ -29,6 +29,9 @@ $(call inherit-product, vendor/ice/sdclang/sdclang.mk)
 # Include gapps makefile
 $(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
+# Include overlays makefile
+$(call inherit-product, vendor/ice/overlay/overlays.mk)
+
 # Include packages makefile
 $(call inherit-product, vendor/ice/target/product/packages.mk)
 
