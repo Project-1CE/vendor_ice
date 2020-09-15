@@ -1,2 +1,2 @@
 # HALs
-hal_attribute(lineage_touch)
+hal_attribute_lineage(lineage_touch)
