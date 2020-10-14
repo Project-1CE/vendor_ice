@@ -12,3 +12,56 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+//
+// Project ICE soong configs
+
+soong_config_module_type {
+    name: "target_process_sdk_version_overrides",
+    module_type: "cc_defaults",
+    config_namespace: "iceGlobalVars",
+    value_variables: ["target_process_sdk_version_override"],
+    properties: ["cppflags"],
+}
+
+target_process_sdk_version_overrides {
+    name: "process_sdk_version_overrides_defaults",
+    soong_config_variables: {
+        target_process_sdk_version_override: {
+            cppflags: ["-DSDK_VERSION_OVERRIDES=\"%s\""],
+        },
+    },
+}
+
+soong_config_module_type {
+    name: "target_shim_libs",
+    module_type: "cc_defaults",
+    config_namespace: "iceGlobalVars",
+    value_variables: ["target_ld_shim_libs"],
+    properties: ["cppflags"],
+}
+
+target_shim_libs {
+    name: "shim_libs_defaults",
+    soong_config_variables: {
+        target_ld_shim_libs: {
+            cppflags: ["-DLD_SHIM_LIBS=\"%s\""],
+        },
+    },
+}
+
+soong_config_module_type {
+    name: "vendor_init",
+    module_type: "cc_defaults",
+    config_namespace: "iceGlobalVars",
+    value_variables: ["target_init_vendor_lib"],
+    properties: ["whole_static_libs"],
+}
+
+vendor_init {
+    name: "vendor_init_defaults",
+    soong_config_variables: {
+        target_init_vendor_lib: {
+            whole_static_libs: ["%s"],
+        },
+    },
+}
