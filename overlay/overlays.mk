@@ -17,6 +17,8 @@
 # Overlays
 PRODUCT_PACKAGES += \
     ICEFrameworksOverlay \
+    ICELauncher3Overlay \
     ICENetworkStackOverlay \
+    ICESettingsOverlay \
     ICESettingsProviderOverlay \
     ICESystemUIOverlay

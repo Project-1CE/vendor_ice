@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# Additional apps
+PRODUCT_PACKAGES += \
+    ThemePicker
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
