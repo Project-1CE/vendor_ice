@@ -21,4 +21,5 @@ PRODUCT_PACKAGES += \
     ICENetworkStackOverlay \
     ICESettingsOverlay \
     ICESettingsProviderOverlay \
+    ICESimpleDeviceConfigOverlay \
     ICESystemUIOverlay
