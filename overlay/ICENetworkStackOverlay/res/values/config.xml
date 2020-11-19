@@ -19,6 +19,7 @@
 -->
 
 <resources>
+    <bool name="config_dhcp_client_hostname">true</bool>
     <string name="config_captive_portal_http_url" translatable="false">http://conn1.oppomobile.com/generate_204</string>
     <string name="config_captive_portal_https_url" translatable="false">https://conn1.oppomobile.com/generate_204</string>
     <string-array name="config_captive_portal_fallback_urls" translatable="false">
