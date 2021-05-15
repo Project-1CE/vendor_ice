@@ -29,3 +29,6 @@ if [ -n "${ICE_BUILDTYPE}" ]; then
     # Flatten APEXs for performance.
     export OVERRIDE_TARGET_FLATTEN_APEX=true
 fi
+
+# Skip ABI compatibility checks.
+export SKIP_ABI_CHECKS=true
