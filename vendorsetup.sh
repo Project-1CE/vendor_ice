@@ -17,3 +17,7 @@
 # SDClang Environment Variables.
 export SDCLANG_CONFIG=$(pwd)/vendor/ice/sdclang/sdclang.json
 export SDCLANG_AE_CONFIG="${SDCLANG_CONFIG}"
+
+# Override host metadata.
+export BUILD_USERNAME=jenkins
+export BUILD_HOSTNAME=rd-build-73
