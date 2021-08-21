@@ -16,6 +16,9 @@
 
 $(call inherit-product, vendor/ice/target/product/version.mk)
 
+# Filesystem
+TARGET_FS_CONFIG_GEN += vendor/ice/target/config/config.fs
+
 # Inherit from common Qualcomm device
 $(call inherit-product, device/qcom/common/common.mk)
 
