@@ -15,6 +15,7 @@
 #
 
 $(call inherit-product, vendor/ice/target/product/version.mk)
+$(call inherit-product-if-exists, vendor/ice-priv/keys/keys.mk)
 
 # Filesystem
 TARGET_FS_CONFIG_GEN += vendor/ice/target/config/config.fs
