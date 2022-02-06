@@ -18,9 +18,14 @@
 export SDCLANG_CONFIG=$(pwd)/vendor/ice/sdclang/sdclang.json
 export SDCLANG_AE_CONFIG="${SDCLANG_CONFIG}"
 
-# Override host metadata.
-export BUILD_USERNAME=jenkins
-export BUILD_HOSTNAME=rd-build-73
+if [ -n "${ICE_BUILDTYPE}" ]; then
+    # Override host metadata.
+    export BUILD_USERNAME=jenkins
+    export BUILD_HOSTNAME=rd-build-73
 
-# Flatten APEXs for performance.
-export OVERRIDE_TARGET_FLATTEN_APEX=true
+    # Set build number for releases.
+    export BUILD_NUMBER=rel.2a.$(date +%y%m%d.%H%M%S)
+
+    # Flatten APEXs for performance.
+    export OVERRIDE_TARGET_FLATTEN_APEX=true
+fi
