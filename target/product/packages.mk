@@ -19,6 +19,11 @@ PRODUCT_PACKAGES += \
     SimpleDeviceConfig \
     ThemePicker
 
+ifeq ($(AB_OTA_UPDATER), true)
+PRODUCT_PACKAGES += \
+    Updater
+endif
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
