@@ -15,7 +15,7 @@
 #
 
 ICE_CODENAME := sugisawa
-ICE_SUBVERSION := alpha1
+ICE_SUBVERSION := beta1
 
 ifndef ICE_BUILDTYPE
   ICE_BUILD_VARIANT := unofficial
