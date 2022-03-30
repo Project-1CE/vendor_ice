@@ -87,3 +87,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Enable support of one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
+
+# Disable mobile data by default
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.android.mobiledata=false
