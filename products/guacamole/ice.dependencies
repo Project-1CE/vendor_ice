@@ -9,13 +9,13 @@
         "remote":       "github",
         "repository":   "Project-1CE/device_oneplus_guacamole",
         "target_path":  "device/oneplus/guacamole",
-        "revision":     "sugisawa"
+        "revision":     "sugisawa-mr1"
     },
     {
         "remote":       "gitlab",
         "repository":   "Project-1CE/vendor_oneplus_guacamole",
         "target_path":  "vendor/oneplus/guacamole",
-        "revision":     "sugisawa"
+        "revision":     "sugisawa-mr1"
     },
     {
         "remote":       "github",
@@ -51,6 +51,6 @@
         "remote":       "github",
         "repository":   "LineageOS/android_packages_resources_devicesettings",
         "target_path":  "packages/resources/devicesettings",
-        "revision":     "lineage-19.0"
+        "revision":     "lineage-19.1"
     }
 ]
