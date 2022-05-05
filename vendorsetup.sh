@@ -24,7 +24,7 @@ if [ -n "${ICE_BUILDTYPE}" ]; then
     export BUILD_HOSTNAME=rd-build-73
 
     # Set build number for releases.
-    export BUILD_NUMBER=rel.2a.$(date +%y%m%d.%H%M%S)
+    export BUILD_NUMBER=rel.2c.$(date +%y%m%d.%H%M%S)
 
     # Flatten APEXs for performance.
     export OVERRIDE_TARGET_FLATTEN_APEX=true
