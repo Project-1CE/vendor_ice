@@ -14,6 +14,13 @@
 # limitations under the License.
 #
 
+# A/SPNs
+ifneq ($(TARGET_NO_TELEPHONY), true)
+PRODUCT_COPY_FILES += \
+    vendor/ice/target/config/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
+    vendor/ice/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
+endif
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
