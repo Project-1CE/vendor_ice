@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-ICE_CODENAME := sugisawa
-ICE_SUBVERSION := beta2
+ICE_CODENAME := tairitsu
+ICE_SUBVERSION := dev
 
 ifndef ICE_BUILDTYPE
   ICE_BUILD_VARIANT := unofficial

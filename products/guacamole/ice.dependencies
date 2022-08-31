@@ -3,37 +3,37 @@
         "remote":       "github",
         "repository":   "alk3p/msm-4.14",
         "target_path":  "kernel/oneplus/sm8150",
-        "revision":     "sugisawa"
+        "revision":     "tachibana"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/device_oneplus_guacamole",
         "target_path":  "device/oneplus/guacamole",
-        "revision":     "sugisawa-mr1"
+        "revision":     "tachibana"
     },
     {
         "remote":       "gitlab",
         "repository":   "Project-1CE/vendor_oneplus_guacamole",
         "target_path":  "vendor/oneplus/guacamole",
-        "revision":     "sugisawa-mr1"
+        "revision":     "tachibana"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
-        "revision":     "sugisawa-8150"
+        "revision":     "tachibana-8150"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "sugisawa-8150"
+        "revision":     "tachibana-8150"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "sugisawa-8150"
+        "revision":     "tachibana-8150"
     },
     {
         "remote":       "github",
@@ -51,6 +51,6 @@
         "remote":       "github",
         "repository":   "LineageOS/android_packages_resources_devicesettings",
         "target_path":  "packages/resources/devicesettings",
-        "revision":     "lineage-19.1"
+        "revision":     "lineage-20.0"
     }
 ]
