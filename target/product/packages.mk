@@ -16,6 +16,7 @@
 
 # Additional apps
 PRODUCT_PACKAGES += \
+    Aperture \
     SimpleDeviceConfig \
     ThemePicker
 
