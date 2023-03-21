@@ -18,7 +18,8 @@
 PRODUCT_PACKAGES += \
     Aperture \
     SimpleDeviceConfig \
-    ThemePicker
+    ThemePicker \
+    ThemesStub
 
 ifeq ($(AB_OTA_UPDATER), true)
 PRODUCT_PACKAGES += \
