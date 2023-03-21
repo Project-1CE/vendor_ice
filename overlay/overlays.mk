@@ -15,6 +15,12 @@
 #
 
 # Overlays
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    vendor/ice/overlay/no-rro
+
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/ice/overlay/no-rro
+
 PRODUCT_PACKAGES += \
     ICEFrameworksOverlay \
     ICELauncher3Overlay \
