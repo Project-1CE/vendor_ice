@@ -9,13 +9,13 @@
         "remote":       "github",
         "repository":   "Project-1CE/device_oneplus_guacamole",
         "target_path":  "device/oneplus/guacamole",
-        "revision":     "tachibana"
+        "revision":     "tachibana-mr1"
     },
     {
         "remote":       "gitlab",
         "repository":   "Project-1CE/vendor_oneplus_guacamole",
         "target_path":  "vendor/oneplus/guacamole",
-        "revision":     "tachibana"
+        "revision":     "tachibana-mr1"
     },
     {
         "remote":       "github",
@@ -28,6 +28,12 @@
         "repository":   "Project-1CE/hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
         "revision":     "tachibana-8150"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Project-1CE/hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "tachibana-8350"
     },
     {
         "remote":       "github",
