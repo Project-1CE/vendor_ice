@@ -16,8 +16,10 @@
 
 # Product Makefiles
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/guacamole/ice_guacamole.mk
+    $(LOCAL_DIR)/guacamole/ice_guacamole.mk \
+    $(LOCAL_DIR)/lynx/ice_lynx.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
-    ice_guacamole-userdebug
+    ice_guacamole-userdebug \
+    ice_lynx-userdebug
