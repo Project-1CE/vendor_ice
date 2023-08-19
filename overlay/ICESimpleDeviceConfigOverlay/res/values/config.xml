@@ -23,8 +23,8 @@
         <!-- ART heap compaction for cached apps -->
         <item>activity_manager/use_compaction=true</item>
 
-        <!-- Keep up to 7 days of permission usage history -->
-        <item>privacy/discrete_history_cutoff_millis=604800000</item>
+        <!-- Show 7-day toggle in privacy hub -->
+        <item>privacy/privacy_dashboard_7_day_toggle=true</item>
 
         <!--
             Keep track of more app ops for privacy dashboard display.
