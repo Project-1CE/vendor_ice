@@ -25,9 +25,6 @@ if [ -n "${ICE_BUILDTYPE}" ]; then
 
     # Set build number for releases.
     export BUILD_NUMBER=rel.2c.$(date +%y%m%d.%H%M%S)
-
-    # Flatten APEXs for performance.
-    export OVERRIDE_TARGET_FLATTEN_APEX=true
 fi
 
 # Skip ABI compatibility checks.
