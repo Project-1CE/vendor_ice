@@ -27,7 +27,7 @@
         "remote":       "caf_system",
         "repository":   "device/google/gs-common",
         "target_path":  "device/google/gs-common",
-        "revision":     "refs/tags/android-13.0.0_r67"
+        "revision":     "refs/tags/android-13.0.0_r75"
     },
     {
         "remote":       "gitlab",
@@ -51,42 +51,42 @@
         "remote":       "caf_system",
         "repository":   "platform/hardware/google/gchips",
         "target_path":  "hardware/google/gchips",
-        "revision":     "refs/tags/android-13.0.0_r67"
+        "revision":     "refs/tags/android-13.0.0_r75"
     },
     {
         "remote":       "caf_system",
         "repository":   "platform/hardware/google/graphics/common",
         "target_path":  "hardware/google/graphics/common",
-        "revision":     "refs/tags/android-13.0.0_r67"
+        "revision":     "refs/tags/android-13.0.0_r75"
     },
     {
         "remote":       "caf_system",
         "repository":   "platform/hardware/google/graphics/gs101",
         "target_path":  "hardware/google/graphics/gs101",
-        "revision":     "refs/tags/android-13.0.0_r67"
+        "revision":     "refs/tags/android-13.0.0_r75"
     },
     {
         "remote":       "caf_system",
         "repository":   "platform/hardware/google/graphics/gs201",
         "target_path":  "hardware/google/graphics/gs201",
-        "revision":     "refs/tags/android-13.0.0_r67"
+        "revision":     "refs/tags/android-13.0.0_r75"
     },
     {
         "remote":       "caf_system",
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-13.0.0_r67"
+        "revision":     "refs/tags/android-13.0.0_r75"
     },
     {
         "remote":       "caf_system",
         "repository":   "platform/external/wpa_supplicant_8",
         "target_path":  "external/wpa_supplicant_8",
-        "revision":     "refs/tags/android-13.0.0_r67"
+        "revision":     "refs/tags/android-13.0.0_r75"
     },
     {
         "remote":       "caf_system",
         "repository":   "platform/system/chre",
         "target_path":  "system/chre",
-        "revision":     "refs/tags/android-13.0.0_r67"
+        "revision":     "refs/tags/android-13.0.0_r75"
     }
 ]
