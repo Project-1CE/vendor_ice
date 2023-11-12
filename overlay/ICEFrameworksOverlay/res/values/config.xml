@@ -24,18 +24,6 @@
     <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
     <item name="config_highResTaskSnapshotScale" format="float" type="dimen">0.8</item>
 
-    <!-- Corner radius of system dialogs -->
-    <dimen name="config_dialogCornerRadius">28.0dip</dimen>
-
-    <!-- Corner radius of system buttons -->
-    <dimen name="config_buttonCornerRadius">4.0dip</dimen>
-
-    <!-- Corner radius for bottom sheet system dialogs -->
-    <dimen name="config_bottomDialogCornerRadius">16.0dip</dimen>
-
-    <!-- Corner radius of system progress bars -->
-    <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
-
     <!-- Whether action menu items should be displayed in ALLCAPS or not.
          Defaults to true. If this is not appropriate for specific locales
          it should be disabled in that locale's resources. -->
