@@ -48,6 +48,24 @@
         -->
         <item>privacy/discrete_history_ops_cslist=0,109,1,108,26,101,27,102,106,100,8,9,6,7,4,5,62,59,60,90,77,111,114,112,51,65,13,6,7,52,53,54,69,74,79,113,20,16,14,19,18,57</item>
 
+        <!-- Allow users to disable location indicators in Developer Options -->
+        <item>privacy/location_indicator_settings_enabled=true</item>
+
+        <!-- Enable permission hub v2 -->
+        <item>privacy/permissions_hub_enabled=true</item>
+        <item>privacy/permissions_hub_2_enabled=true</item>
+
+        <!-- Enable protected by android banner -->
+        <item>privacy/safety_protection_enabled=true</item>
+
+        <!-- System UI -->
+        <item>systemui/clipboard_overlay_show_actions=true</item>
+        <item>systemui/quick_access_wallet_enabled=true</item>
+        <item>systemui/enable_screenshot_corner_flow=true</item>
+        <item>systemui/enable_screenshot_notification_smart_actions=true</item>
+        <item>systemui/enable_screenshot_scrolling=true</item>
+        <item>systemui/volume_separate_notification=true</item>
+
         <!-- Contribute app shortcuts to centralized AppSearch index -->
         <item>systemui/shortcut_appsearch_integration=true</item>
 
@@ -55,9 +73,6 @@
         <item>systemui/use_back_gesture_ml_model=true</item>
         <item>systemui/back_gesture_ml_model_name=backgesture</item>
         <item>systemui/back_gesture_ml_model_threshold=0.8</item>
-
-        <!-- Allow users to disable location indicators in Developer Options -->
-        <item>privacy/location_indicator_settings_enabled=true</item>
 
         <!--
             Disable the TF input classifier entirely to save CPU and fix log
@@ -67,31 +82,29 @@
         -->
         <item>input_native_boot/deep_press_enabled=false</item>
 
+        <!-- Don't pin camera app to save memory -->
+        <item>runtime_native_boot/pin_camera=false</item>
+
+        <!-- Globally enable the new photo picker -->
+        <item>storage_native_boot/take_over_get_content=true</item>
+
         <!--
             Device Personalization Services (AiAi)
         -->
 
         <!-- Live Caption (Pixel 2017 + OEM) -->
         <item>device_personalization_services/Captions__enable_augmented_modality=true</item>
-        <item>device_personalization_services/Captions__enable_augmented_music=true</item>
+        <item>device_personalization_services/Captions__enable_augmented_modality_input=true</item>
+        <item>device_personalization_services/Captions__enable_augmented_modality_language_detection=true</item>
+        <item>device_personalization_services/Captions__enable_augmented_music=false</item>
         <item>device_personalization_services/Captions__enable_clearcut_logging=true</item>
+        <item>device_personalization_services/Captions__enable_language_detection=true</item>
         <item>device_personalization_services/Captions__enable_punctuations=true</item>
-        <item>device_personalization_services/Captions__enable_setting_page=false</item>
-        <item>device_personalization_services/Captions__enable_text_transform=true</item>
-        <item>device_personalization_services/Captions__enable_westworld_logging=false</item>
-        <item>device_personalization_services/Captions__enable_zero_day=false</item>
-        <item>device_personalization_services/Captions__manifest_url_template=https://storage.googleapis.com/captions/%{NAMESPACE}_%{VERSION}_manifest.json</item>
-        <item>device_personalization_services/Captions__model_version_v1=20190613</item>
-        <item>device_personalization_services/Captions__model_version_v1_2=20200112</item>
-        <item>device_personalization_services/Captions__new_model_version_advanced=20210930</item>
-        <item>device_personalization_services/Captions__speech_threshold=0.2</item>
-        <item>device_personalization_services/Captions__surface_sound_events=true</item>
-        <item>device_personalization_services/Captions__visibility_playing_duration_millis=5000</item>
-        <item>device_personalization_services/Captions__visibility_stopped_duration_millis=1500</item>
 
         <!-- Adaptive Sound (Pixel 2020) -->
         <item>device_personalization_services/AdaptiveAudio__enable_adaptive_audio=true</item>
-        <item>device_personalization_services/AdaptiveAudio__show_promo_notification=true</item>
+        <item>device_personalization_services/AdaptiveAudio__show_promo_notification=false</item>
+        <item>device_personalization_services/AdaptiveAudio__use_silence_detector_state_bug_fix=true</item>
 
         <!-- Recents text selection (for Pixel Launcher users) -->
         <item>device_personalization_services/Overview__enable_image_selection=true</item>
@@ -105,6 +118,22 @@
         <item>device_personalization_services/Overview__enable_proactive_hints=false</item>
         <item>device_personalization_services/Overview__enable_superpacks_pir_protocol=true</item>
         <item>device_personalization_services/Overview__min_lens_agsa_app_version=301084649</item>
+
+        <!-- Live Translate -->
+        <item>device_personalization_services/Translate__blue_chip_translate_enabled=true</item>
+        <item>device_personalization_services/Translate__copy_to_translate_enabled=true</item>
+        <item>device_personalization_services/Translate__replace_auto_translate_copied_text_enabled=true</item>
+        <item>device_personalization_services/Translate__translation_service_enabled=true</item>
+        <item>device_personalization_services/Translate__enable_chronicle_migration=true</item>
+        <item>device_personalization_services/Translate__use_translate_kit_streaming_api=true</item>
+
+        <!-- WallpaperEffects -->
+        <item>device_personalization_services/WallpaperEffects__cinematic_models_mdd_manifest_config=Ct4IEtsICiF3YWxscGFwZXJlZmZlY3RzLWNpbmVtYXRpYy1tb2RlbHMSwgESdWh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9tZGktc2VydmluZy9haWFpLXdhbGxwYXBlcmVmZmVjdHMtY2luZW1hdGljLW1vZGVscy83NDYvNTk2NDgzNDA1MzljOGU2OWRmZGZlYjkzNTk0OTIzYWJmZDBmMGQwNyCM4JQFKig1OTY0ODM0MDUzOWM4ZTY5ZGZkZmViOTM1OTQ5MjNhYmZkMGYwZDA3OhJkZXB0aF9tb2RlbC50ZmxpdGV4AKIBAKoBABLIARJ1aHR0cHM6Ly9kbC5nb29nbGUuY29tL21kaS1zZXJ2aW5nL2FpYWktd2FsbHBhcGVyZWZmZWN0cy1jaW5lbWF0aWMtbW9kZWxzLzc0Ni84NmE3MWYwYTIwYjFhMjhiNTY4MTMwZTliYTZjMTYzZTdhZjQzMTg5IKzsyQQqKDg2YTcxZjBhMjBiMWEyOGI1NjgxMzBlOWJhNmMxNjNlN2FmNDMxODk6GHBlcnNvbl9wb3NlX21vZGVsLnRmbGl0ZXgAogEAqgEAEs0BEnVodHRwczovL2RsLmdvb2dsZS5jb20vbWRpLXNlcnZpbmcvYWlhaS13YWxscGFwZXJlZmZlY3RzLWNpbmVtYXRpYy1tb2RlbHMvNzQ2L2I2NTQxNDFiOTUwNjY3OTVlYjBlNjNlZDRkNzFiZjQxZDQyYjFhNmMgyPPNAiooYjY1NDE0MWI5NTA2Njc5NWViMGU2M2VkNGQ3MWJmNDFkNDJiMWE2YzodcGVyc29uX3NlZ21lbnRlcl9tb2RlbC50ZmxpdGV4AKIBAKoBABLLARJ1aHR0cHM6Ly9kbC5nb29nbGUuY29tL21kaS1zZXJ2aW5nL2FpYWktd2FsbHBhcGVyZWZmZWN0cy1jaW5lbWF0aWMtbW9kZWxzLzc0Ni9lOTllZWJlMDQ2NDk4ZmU2N2MzMzdjZmZkMzkzODM4NTVkMjE0NjM5INCXrwIqKGU5OWVlYmUwNDY0OThmZTY3YzMzN2NmZmQzOTM4Mzg1NWQyMTQ2Mzk6G3JnYmRfaW5wYWludGVyX21vZGVsLnRmbGl0ZXgAogEAqgEAEsQBEnVodHRwczovL2RsLmdvb2dsZS5jb20vbWRpLXNlcnZpbmcvYWlhaS13YWxscGFwZXJlZmZlY3RzLWNpbmVtYXRpYy1tb2RlbHMvNzQ2L2ExNjQ4ZjQ2NDYyZDVmMTExOTVjNmEyYTBhN2M0MTMyZTEwNzJjMDIgsLo6KihhMTY0OGY0NjQ2MmQ1ZjExMTk1YzZhMmEwYTdjNDEzMmUxMDcyYzAyOhVzYWxpZW5jeV9tb2RlbC50ZmxpdGV4AKIBAKoBABgAUABYAGoECAEQAHAAogEAqAEAuAHqBdIBB2RlZmF1bHTaAQDiARsKBwgBEJ+xjRcKBwgCEKCxjRcKBwgDEKGxjRc</item>
+        <item>device_personalization_services/WallpaperEffects__enable_cinematic_effect=true</item>
+        <item>device_personalization_services/WallpaperEffects__enable_cinematic_mdd=true</item>
+        <item>device_personalization_services/WallpaperEffects__enable_person_segment_tpu=false</item>
+        <item>device_personalization_services/WallpaperEffects__return_texturedmesh_with_error_status=true</item>
+        <item>device_personalization_services/WallpaperEffects__use_gpu=true</item>
 
         <!-- Disable federated learning -->
         <item>device_personalization_services/OverviewFederatedAnalytics__enable_fa=false</item>
