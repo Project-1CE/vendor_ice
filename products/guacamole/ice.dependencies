@@ -3,43 +3,43 @@
         "remote":       "github",
         "repository":   "alk3p/msm-4.14",
         "target_path":  "kernel/oneplus/sm8150",
-        "revision":     "tachibana"
+        "revision":     "umineko"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/device_oneplus_guacamole",
         "target_path":  "device/oneplus/guacamole",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
         "remote":       "gitlab",
         "repository":   "Project-1CE/vendor_oneplus_guacamole",
         "target_path":  "vendor/oneplus/guacamole",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
-        "revision":     "tachibana-8150"
+        "revision":     "umineko-8150"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "tachibana-8150"
+        "revision":     "umineko-8150"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/hardware_qcom_gps",
         "target_path":  "hardware/qcom/gps",
-        "revision":     "tachibana-8350"
+        "revision":     "umineko-8350"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "tachibana-8150"
+        "revision":     "umineko-8150"
     },
     {
         "remote":       "github",
@@ -57,6 +57,6 @@
         "remote":       "github",
         "repository":   "LineageOS/android_packages_resources_devicesettings",
         "target_path":  "packages/resources/devicesettings",
-        "revision":     "lineage-20.0"
+        "revision":     "lineage-21.0"
     }
 ]

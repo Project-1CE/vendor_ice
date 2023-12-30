@@ -21,5 +21,5 @@ PRODUCT_MAKEFILES += \
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
-    ice_guacamole-userdebug \
-    ice_lynx-userdebug
+    ice_guacamole-user \
+    ice_lynx-user

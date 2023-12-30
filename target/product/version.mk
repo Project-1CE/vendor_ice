@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ICE_CODENAME := tairitsu
+ICE_CODENAME := umaru
 ICE_SUBVERSION := dev
 
 ifndef ICE_BUILDTYPE
