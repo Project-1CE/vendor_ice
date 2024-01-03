@@ -23,6 +23,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=lynx \
-    PRIVATE_BUILD_DESC="lynx-user 13 TQ3A.230901.001 10750268 release-keys"
+    PRIVATE_BUILD_DESC="lynx-user 14 UP1A.231105.003 11010452 release-keys"
 
-BUILD_FINGERPRINT := google/lynx/lynx:13/TQ3A.230901.001/10750268:user/release-keys
+BUILD_FINGERPRINT := google/lynx/lynx:14/UP1A.231105.003/11010452:user/release-keys

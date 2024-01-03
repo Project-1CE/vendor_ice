@@ -3,90 +3,90 @@
         "remote":       "ice",
         "repository":   "Project-1CE/device_google_lynx",
         "target_path":  "device/google/lynx",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/device_google_lynx-kernel",
         "target_path":  "device/google/lynx-kernel",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/device_google_gs101",
         "target_path":  "device/google/gs101",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/device_google_gs201",
         "target_path":  "device/google/gs201",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
-        "remote":       "caf_system",
-        "repository":   "device/google/gs-common",
+        "remote":       "ice",
+        "repository":   "Project-1CE/device_google_gs-common",
         "target_path":  "device/google/gs-common",
-        "revision":     "refs/tags/android-13.0.0_r75"
+        "revision":     "umineko"
     },
     {
         "remote":       "gitlab",
         "repository":   "Project-1CE/vendor_google_lynx",
         "target_path":  "vendor/google/lynx",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/hardware_google_pixel",
         "target_path":  "hardware/google/pixel",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/hardware_google_pixel-sepolicy",
         "target_path":  "hardware/google/pixel-sepolicy",
-        "revision":     "tachibana-mr1"
+        "revision":     "umineko"
     },
     {
-        "remote":       "caf_system",
+        "remote":       "aosp",
         "repository":   "platform/hardware/google/gchips",
         "target_path":  "hardware/google/gchips",
-        "revision":     "refs/tags/android-13.0.0_r75"
+        "revision":     "refs/tags/android-14.0.0_r14"
     },
     {
-        "remote":       "caf_system",
+        "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/common",
         "target_path":  "hardware/google/graphics/common",
-        "revision":     "refs/tags/android-13.0.0_r75"
+        "revision":     "refs/tags/android-14.0.0_r14"
     },
     {
-        "remote":       "caf_system",
+        "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/gs101",
         "target_path":  "hardware/google/graphics/gs101",
-        "revision":     "refs/tags/android-13.0.0_r75"
+        "revision":     "refs/tags/android-14.0.0_r14"
     },
     {
-        "remote":       "caf_system",
+        "remote":       "aosp",
         "repository":   "platform/hardware/google/graphics/gs201",
         "target_path":  "hardware/google/graphics/gs201",
-        "revision":     "refs/tags/android-13.0.0_r75"
+        "revision":     "refs/tags/android-14.0.0_r14"
     },
     {
-        "remote":       "caf_system",
+        "remote":       "aosp",
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-13.0.0_r75"
+        "revision":     "refs/tags/android-14.0.0_r14"
     },
     {
-        "remote":       "caf_system",
+        "remote":       "aosp",
         "repository":   "platform/external/wpa_supplicant_8",
         "target_path":  "external/wpa_supplicant_8",
-        "revision":     "refs/tags/android-13.0.0_r75"
+        "revision":     "refs/tags/android-14.0.0_r14"
     },
     {
-        "remote":       "caf_system",
+        "remote":       "aosp",
         "repository":   "platform/system/chre",
         "target_path":  "system/chre",
-        "revision":     "refs/tags/android-13.0.0_r75"
+        "revision":     "refs/tags/android-14.0.0_r14"
     }
 ]
