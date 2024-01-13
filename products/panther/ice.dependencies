@@ -1,0 +1,92 @@
+[
+    {
+        "remote":       "ice",
+        "repository":   "Project-1CE/device_google_pantah",
+        "target_path":  "device/google/pantah",
+        "revision":     "umineko"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Project-1CE/device_google_pantah-kernel",
+        "target_path":  "device/google/pantah-kernel",
+        "revision":     "umineko"
+    },
+    {
+        "remote":       "ice",
+        "repository":   "Project-1CE/device_google_gs101",
+        "target_path":  "device/google/gs101",
+        "revision":     "umineko"
+    },
+    {
+        "remote":       "ice",
+        "repository":   "Project-1CE/device_google_gs201",
+        "target_path":  "device/google/gs201",
+        "revision":     "umineko"
+    },
+    {
+        "remote":       "ice",
+        "repository":   "Project-1CE/device_google_gs-common",
+        "target_path":  "device/google/gs-common",
+        "revision":     "umineko"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "Project-1CE/vendor_google_panther",
+        "target_path":  "vendor/google/panther",
+        "revision":     "umineko"
+    },
+    {
+        "remote":       "ice",
+        "repository":   "Project-1CE/hardware_google_pixel",
+        "target_path":  "hardware/google/pixel",
+        "revision":     "umineko"
+    },
+    {
+        "remote":       "ice",
+        "repository":   "Project-1CE/hardware_google_pixel-sepolicy",
+        "target_path":  "hardware/google/pixel-sepolicy",
+        "revision":     "umineko"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/gchips",
+        "target_path":  "hardware/google/gchips",
+        "revision":     "refs/tags/android-14.0.0_r14"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/graphics/common",
+        "target_path":  "hardware/google/graphics/common",
+        "revision":     "refs/tags/android-14.0.0_r14"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/graphics/gs101",
+        "target_path":  "hardware/google/graphics/gs101",
+        "revision":     "refs/tags/android-14.0.0_r14"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/google/graphics/gs201",
+        "target_path":  "hardware/google/graphics/gs201",
+        "revision":     "refs/tags/android-14.0.0_r14"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/broadcom/wlan",
+        "target_path":  "hardware/broadcom/wlan",
+        "revision":     "refs/tags/android-14.0.0_r14"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/external/wpa_supplicant_8",
+        "target_path":  "external/wpa_supplicant_8",
+        "revision":     "refs/tags/android-14.0.0_r14"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/system/chre",
+        "target_path":  "system/chre",
+        "revision":     "refs/tags/android-14.0.0_r14"
+    }
+]
