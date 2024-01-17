@@ -19,12 +19,8 @@ PRODUCT_PACKAGES += \
     Aperture \
     SimpleDeviceConfig \
     ThemePicker \
-    ThemesStub
-
-ifeq ($(AB_OTA_UPDATER), true)
-PRODUCT_PACKAGES += \
+    ThemesStub \
     Updater
-endif
 
 # HIDL
 PRODUCT_PACKAGES += \
