@@ -17,6 +17,7 @@
 # Additional apps
 PRODUCT_PACKAGES += \
     Aperture \
+    AudioFX \
     SimpleDeviceConfig \
     ThemePicker \
     ThemesStub \
