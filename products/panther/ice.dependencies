@@ -1,14 +1,14 @@
 [
     {
-        "remote":       "ice",
-        "repository":   "Project-1CE/device_google_pantah",
-        "target_path":  "device/google/pantah",
+        "remote":       "github",
+        "repository":   "Project-1CE/kernel_google_gs201",
+        "target_path":  "kernel/google/gs201",
         "revision":     "umineko"
     },
     {
-        "remote":       "github",
-        "repository":   "Project-1CE/device_google_pantah-kernel",
-        "target_path":  "device/google/pantah-kernel",
+        "remote":       "ice",
+        "repository":   "Project-1CE/device_google_pantah",
+        "target_path":  "device/google/pantah",
         "revision":     "umineko"
     },
     {
@@ -48,16 +48,16 @@
         "revision":     "umineko"
     },
     {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/google/gchips",
+        "remote":       "ice",
+        "repository":   "Project-1CE/hardware_google_gchips",
         "target_path":  "hardware/google/gchips",
-        "revision":     "refs/tags/android-14.0.0_r14"
+        "revision":     "umineko"
     },
     {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/google/graphics/common",
+        "remote":       "ice",
+        "repository":   "Project-1CE/hardware_google_graphics_common",
         "target_path":  "hardware/google/graphics/common",
-        "revision":     "refs/tags/android-14.0.0_r14"
+        "revision":     "umineko"
     },
     {
         "remote":       "aosp",
