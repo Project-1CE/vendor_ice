@@ -12,6 +12,12 @@
         "revision":     "umineko"
     },
     {
+        "remote":       "github",
+        "repository":   "Project-1CE/device_google_lynx-kernel",
+        "target_path":  "device/google/lynx-kernel",
+        "revision":     "umineko"
+    },
+    {
         "remote":       "ice",
         "repository":   "Project-1CE/device_google_gs101",
         "target_path":  "device/google/gs101",
