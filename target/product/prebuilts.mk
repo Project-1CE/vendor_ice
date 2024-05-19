@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/ice/target/config/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
 endif
 
+# Boot animation
+PRODUCT_COPY_FILES += \
+    vendor/ice/bootanim/bootanimation.zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \

@@ -17,9 +17,6 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7
 PRODUCT_NAME := ice_panther
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
-
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=panther \
