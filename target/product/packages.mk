@@ -18,6 +18,7 @@
 PRODUCT_PACKAGES += \
     Aperture \
     AudioFX \
+    Camelot \
     EmergencyInfo \
     SimpleDeviceConfig \
     ThemePicker \
