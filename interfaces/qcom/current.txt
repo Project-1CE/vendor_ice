@@ -1,0 +1,27 @@
+## bluetooth_audio
+ee728ecbe47455fc665b4561c36c7bac3b24806a728641c841b41d5cb450a3b9 com.qualcomm.qti.bluetooth_audio@1.0::types
+5f58543f1dbbde548ef90d8e5f263a05d51f342e6847acd383c56091c4daa5fe com.qualcomm.qti.bluetooth_audio@1.0::IBluetoothAudio
+abc1ee69ad2c80d532f022b02a78c6a81975156a8763389c41409d660c8b1cc5 com.qualcomm.qti.bluetooth_audio@1.0::IBluetoothAudioCallbacks
+
+## btconfigstore
+e8c27d01b9a82a77a1e4b91bf2fdf469ea0790018536e75adfa412a23ebcaf31 vendor.qti.hardware.btconfigstore@1.0::types
+32eed18420b0a645325805095fe40ab89d0b6e33effdce8f70d49015aef6d506 vendor.qti.hardware.btconfigstore@1.0::IBTConfigStore
+3c637d840916d6affda8b35359df37ea0510964242109b9e558ae8276a205d29 vendor.qti.hardware.btconfigstore@2.0::types
+3fd14e41ed74c712f74b34d930e595666a838945c1877b49825160106a3d932d vendor.qti.hardware.btconfigstore@2.0::IBTConfigStore
+
+## capabilityconfigstore
+237144c4fecefd0045b891f43c7098bae49c4c424c32b339505bb6117bdb99a3 vendor.qti.hardware.capabilityconfigstore@1.0::types
+928677d39894f5f4709bd71a747265de38a28cc8f319dd58efc8c2d809f6b210 vendor.qti.hardware.capabilityconfigstore@1.0::ICapabilityConfigStore
+
+## cryptfshw
+506811e08dce8b267bdbf382ad5ff6bb8655b148b4660ec78425e9af4362702b vendor.qti.hardware.cryptfshw@1.0::ICryptfsHw
+
+## fm
+07819d547ea82a75b474f62a564ba1254aad4ecb2ee4312245e6d0e27508f026 vendor.qti.hardware.fm@1.0::types
+03fa27659641f069d0308ea4306dde1d958a62bd36bd5d454c5e4d59c98a360f vendor.qti.hardware.fm@1.0::IFmHci
+2bd5af1117c6fc6bda47aeca01382c049f526e5be7620ffa70dda0ba58b7d7cd vendor.qti.hardware.fm@1.0::IFmHciCallbacks
+
+## wifi
+ed647c5c2d18d86864a9ca3755781f2e06cfbf4976555c9562054770aa95dd1a vendor.qti.hardware.wifi.wificfr@1.0::types
+84a94ceda51e93347b52c4ad7d79e7f209653c97f396d2e8dbd284ce1844d165 vendor.qti.hardware.wifi.wificfr@1.0::IWificfr
+02f4649311e84454bf9e33a78c3b27bc3cba48a3d963c1044ef0339c70068045 vendor.qti.hardware.wifi.wificfr@1.0::IWificfrDataCallback

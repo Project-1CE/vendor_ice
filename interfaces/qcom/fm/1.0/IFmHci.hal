@@ -6,8 +6,10 @@ interface IFmHci {
     @entry
     @callflow(next={"sendHciCommand", "close"})
     initialize(IFmHciCallbacks callback);
+
     @callflow(next={"sendHciCommand", "close"})
     sendHciCommand(HciPacket command);
+
     @exit
     close();
 };
