@@ -1,0 +1,11 @@
+package vendor.qti.hardware.wifi.wificfr@1.0;
+
+enum CaptureStatusCode : uint32_t {
+    SUCCESS,
+    FAILURE_UNKNOWN,
+};
+
+struct CaptureStatus {
+    CaptureStatusCode code;
+    string debugMessage;
+};

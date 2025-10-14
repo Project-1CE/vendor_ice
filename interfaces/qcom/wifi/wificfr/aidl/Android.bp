@@ -1,0 +1,20 @@
+aidl_interface {
+    name: "vendor.qti.hardware.wifi.wificfr",
+    vendor_available: true,
+    system_ext_specific: true,
+    srcs: ["vendor/qti/hardware/wifi/wificfr/*.aidl"],
+    stability: "vintf",
+    backend: {
+        java: {
+            sdk_version: "module_current",
+        },
+    },
+    versions_with_info: [
+        {
+            version: "1",
+            imports: [],
+        },
+    ],
+    frozen: true,
+
+}

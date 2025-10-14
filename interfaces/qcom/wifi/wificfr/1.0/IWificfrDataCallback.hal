@@ -1,0 +1,7 @@
+package vendor.qti.hardware.wifi.wificfr@1.0;
+
+import types;
+
+interface IWificfrDataCallback {
+    oneway onCfrDataAvailable(vec<uint8_t> captureInfo);
+};

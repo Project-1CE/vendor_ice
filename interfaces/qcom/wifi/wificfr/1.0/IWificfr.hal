@@ -1,0 +1,11 @@
+package vendor.qti.hardware.wifi.wificfr@1.0;
+
+import types;
+import IWificfrDataCallback;
+
+interface IWificfr {
+    csiCaptureStart() generates (CaptureStatus status);
+    csiCaptureStop() generates (CaptureStatus status);
+    registerEventCallback(IWificfrDataCallback callback) generates (CaptureStatus status);
+    unregisterEventCallback(IWificfrDataCallback callback) generates (CaptureStatus status);
+};
