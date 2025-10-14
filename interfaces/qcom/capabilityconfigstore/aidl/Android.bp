@@ -1,0 +1,23 @@
+aidl_interface {
+    name: "vendor.qti.hardware.capabilityconfigstore",
+    vendor_available: true,
+    host_supported: true,
+    srcs: ["vendor/qti/hardware/capabilityconfigstore/*.aidl"],
+    stability: "vintf",
+    backend: {
+        cpp: {
+            enabled: true,
+        },
+        java: {
+            sdk_version: "system_current",
+        },
+    },
+    versions_with_info: [
+        {
+            version: "1",
+            imports: [],
+        },
+    ],
+    frozen: true,
+
+}
