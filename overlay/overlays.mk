@@ -21,6 +21,11 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/ice/overlay/no-rro
 
+ifeq ($(TARGET_NO_TELEPHONY), true)
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/ice/overlay/wifionly
+endif
+
 PRODUCT_PACKAGES += \
     ICEFrameworksOverlay \
     ICELauncher3Overlay \
