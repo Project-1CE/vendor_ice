@@ -31,16 +31,16 @@ PRODUCT_PACKAGES += \
     product_charger_res_images
 
 # Fonts
-PRODUCT_PACKAGES += \
-    CutiveMono.ttf \
-    DroidSansMono.ttf \
-    Roboto-Regular.ttf \
-    RobotoFallback-VF.ttf \
-    RobotoStatic-Regular.ttf \
-    NotoSerif-BoldItalic.ttf \
-    NotoSerif-Bold.ttf \
-    NotoSerif-Italic.ttf \
-    NotoSerif-Regular.ttf
+# PRODUCT_PACKAGES += \
+#     CutiveMono.ttf \
+#     DroidSansMono.ttf \
+#     Roboto-Regular.ttf \
+#     RobotoFallback-VF.ttf \
+#     RobotoStatic-Regular.ttf \
+#     NotoSerif-BoldItalic.ttf \
+#     NotoSerif-Bold.ttf \
+#     NotoSerif-Italic.ttf \
+#     NotoSerif-Regular.ttf
 
 # Sounds
 $(call inherit-product, frameworks/base/data/sounds/AudioPackage14.mk)
