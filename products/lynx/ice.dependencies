@@ -3,96 +3,78 @@
         "remote":       "github",
         "repository":   "Project-1CE/kernel_google_gs201",
         "target_path":  "kernel/google/gs201",
-        "revision":     "umineko"
+        "revision":     "25q2"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/device_google_lynx",
         "target_path":  "device/google/lynx",
-        "revision":     "umineko"
+        "revision":     "25q2"
     },
     {
         "remote":       "github",
         "repository":   "Project-1CE/device_google_lynx-kernel",
-        "target_path":  "device/google/lynx-kernel",
-        "revision":     "umineko"
-    },
-    {
-        "remote":       "ice",
-        "repository":   "Project-1CE/device_google_gs101",
-        "target_path":  "device/google/gs101",
-        "revision":     "umineko"
+        "target_path":  "device/google/lynx-kernels/6.1/25Q2-13436313",
+        "revision":     "25q2"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/device_google_gs201",
         "target_path":  "device/google/gs201",
-        "revision":     "umineko"
+        "revision":     "25q2"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/device_google_gs-common",
         "target_path":  "device/google/gs-common",
-        "revision":     "umineko"
+        "revision":     "25q2"
     },
     {
         "remote":       "gitlab",
         "repository":   "Project-1CE/vendor_google_lynx",
         "target_path":  "vendor/google/lynx",
-        "revision":     "umineko"
+        "revision":     "25q2"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/hardware_google_pixel",
         "target_path":  "hardware/google/pixel",
-        "revision":     "umineko"
+        "revision":     "25q2"
     },
     {
         "remote":       "ice",
         "repository":   "Project-1CE/hardware_google_pixel-sepolicy",
         "target_path":  "hardware/google/pixel-sepolicy",
-        "revision":     "umineko"
+        "revision":     "25q2"
     },
     {
         "remote":       "ice",
-        "repository":   "Project-1CE/hardware_google_gchips",
-        "target_path":  "hardware/google/gchips",
-        "revision":     "umineko"
-    },
-    {
-        "remote":       "ice",
-        "repository":   "Project-1CE/hardware_google_graphics_common",
-        "target_path":  "hardware/google/graphics/common",
-        "revision":     "umineko"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/google/graphics/gs101",
-        "target_path":  "hardware/google/graphics/gs101",
-        "revision":     "refs/tags/android-14.0.0_r14"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/google/graphics/gs201",
-        "target_path":  "hardware/google/graphics/gs201",
-        "revision":     "refs/tags/android-14.0.0_r14"
+        "repository":   "Project-1CE/packages_modules_Bluetooth",
+        "target_path":  "packages/modules/Bluetooth",
+        "revision":     "25q2-aosp"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-14.0.0_r14"
+        "revision":     "refs/tags/android-16.0.0_r2"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/external/wpa_supplicant_8",
         "target_path":  "external/wpa_supplicant_8",
-        "revision":     "refs/tags/android-14.0.0_r14"
+        "revision":     "refs/tags/android-16.0.0_r2"
     },
     {
         "remote":       "aosp",
-        "repository":   "platform/system/chre",
-        "target_path":  "system/chre",
-        "revision":     "refs/tags/android-14.0.0_r14"
+        "repository":   "platform/external/OpenCL-Headers",
+        "target_path":  "external/OpenCL-Headers",
+        "revision":     "refs/tags/android-16.0.0_r2"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/external/OpenCL-ICD-Loader",
+        "target_path":  "external/OpenCL-ICD-Loader",
+        "revision":     "refs/tags/android-16.0.0_r2"
     }
 ]

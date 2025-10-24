@@ -19,10 +19,9 @@ PRODUCT_NAME := ice_panther
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=panther \
-    PRIVATE_BUILD_DESC="panther-user 14 UP1A.231105.003 11010452 release-keys"
-
-BUILD_FINGERPRINT := google/panther/panther:14/UP1A.231105.003/11010452:user/release-keys
+    BuildDesc="panther-user 16 BP2A.250805.005 13691446 release-keys" \
+    BuildFingerprint=google/panther/panther:16/BP2A.250805.005/13691446:user/release-keys \
+    DeviceProduct=panther
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/google/panther/panther-vendor.mk)

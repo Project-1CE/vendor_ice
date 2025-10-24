@@ -19,7 +19,6 @@ PRODUCT_NAME := ice_lynx
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=lynx \
-    PRIVATE_BUILD_DESC="lynx-user 14 UP1A.231105.003 11010452 release-keys"
-
-BUILD_FINGERPRINT := google/lynx/lynx:14/UP1A.231105.003/11010452:user/release-keys
+    BuildDesc="lynx-user 16 BP2A.250805.005 13691446 release-keys" \
+    BuildFingerprint=google/lynx/lynx:16/BP2A.250805.005/13691446:user/release-keys \
+    DeviceProduct=lynx
